@@ -2,4 +2,4 @@ on: [push]
 
 jobs:
   hello_world_job:
-    uses: useme.yml
+    uses: useme.yml@main
