@@ -3,3 +3,5 @@ on: [push]
 jobs:
   hello_world_job:
     uses: ./.github/workflows/useme.yml
+    with:
+      user: "Praveen Kumar Thalluri"
