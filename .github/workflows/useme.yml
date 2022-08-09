@@ -1,6 +1,6 @@
 on:
   workflow_call:
-    input:
+    inputs:
       user:
         type: string
         required: true
