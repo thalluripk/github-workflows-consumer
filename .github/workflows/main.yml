@@ -2,4 +2,4 @@ on: [push]
 
 jobs:
   hello_world_job:
-    uses: ././.github/workflows/useme.yml@main
+    uses: ./.github/workflows/useme.yml@main
