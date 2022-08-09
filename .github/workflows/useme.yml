@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - id: foo
-        uses: thalluripk/github-workflows/.github/actions/action-1@main
+        uses: thalluripk/github-workflows/.github/actions/action-1
         with:
           who-to-greet: ${{inputs.user}}
       - run: echo random-number ${{ steps.foo.outputs.random-number }}
