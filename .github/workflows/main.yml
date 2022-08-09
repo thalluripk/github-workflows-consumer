@@ -9,6 +9,6 @@ jobs:
       - id: foo
         uses: thalluripk/github-workflows@v1
         with:
-          who-to-greet: 'Mona the Octocat'
+          who-to-greet: 'Praveen Thalluri'
       - run: echo random-number ${{ steps.foo.outputs.random-number }}
         shell: bash
