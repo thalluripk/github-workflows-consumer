@@ -2,9 +2,6 @@ on:
   push:
     branches-ignore:
       - main
-  pull_requests:
-    branches-ignore:
-      - main
 
 jobs:
   hello_world_job:
