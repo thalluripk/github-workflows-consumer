@@ -2,9 +2,12 @@ on:
   push:
     branches-ignore:
       - main
+  pull_requests:
+    branches-ignore:
+      - main
 
 jobs:
   hello_world_job:
     uses: thalluripk/github-workflows/.github/workflows/useme.yml@main
     with:
-      user: "Pranati Kumar Thalluri"
+      branch-name: "Pranati Thalluri"
