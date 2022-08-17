@@ -4,7 +4,7 @@ on:
       - main
 
 jobs:
-  hello_world_job:
+  Pre_Merge_Checks:
     uses: thalluripk/github-workflows/.github/workflows/useme.yml@main
     with:
-      user: "Pranati Kumar Thalluri"
+      branch-name: $env:GITHUB_REF_NAME
