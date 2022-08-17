@@ -7,4 +7,4 @@ jobs:
   Pre_Merge_Checks:
     uses: thalluripk/github-workflows/.github/workflows/useme.yml@main
     with:
-      branch-name: ${{$env:GITHUB_REF_NAME}}
+      branch-name: $env:GITHUB_REF_NAME
