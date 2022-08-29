@@ -1,7 +1,6 @@
 on:
   pull_request:
 
-
 jobs:
   Pre_Merge_Checks:
     uses: thalluripk/github-workflows/.github/workflows/useme.yml@main
