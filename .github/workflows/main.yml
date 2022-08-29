@@ -1,7 +1,5 @@
 on:
   pull_request:
-    branches-ignore:
-      - main
 
 jobs:
   Pre_Merge_Checks:
